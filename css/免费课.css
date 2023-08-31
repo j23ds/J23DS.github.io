@@ -1,0 +1,168 @@
+body {
+	background-color: #f7f7f7;
+}
+
+.icon {
+	padding-top: 50px;
+	width: 1263.33px;
+	height: 530px;
+
+	text-align: center;
+}
+.icon .top img {
+	width: 1263.33px;
+	height: 328px;
+	margin-bottom: 20px;
+
+}
+.icon .bottom {
+	padding: 0 100px;	
+}
+.icon .bottom img {
+	width: 340px;
+	float: left;
+	margin: 0 7px;
+	border-radius: 6px;
+}
+
+.ranking,.evaluate {
+	width: 1263.33px;
+	height: 430px;
+	padding: 0 100px;
+}
+.ranking .top,.evaluate .top {
+	height: 40px;
+}
+
+.ranking .top h3,.evaluate .top h3 {
+	height: 40px;
+	padding: 0 20px;
+	font-size: 28px;
+	color: #757575;
+	float: left;
+}
+.ranking .top span,.evaluate .top span {
+	float: right;
+	line-height: 40px;
+	color: #757575;
+}
+.ranking .top span:hover,.evaluate .top span:hover {
+	color: #cd0301;
+}
+
+.ranking .left,
+.ranking .middle,
+.ranking .right {
+	float: left;
+	width: 318.99px;
+	height: 430px;
+	margin: 0 35px 0 0;
+}
+
+.ranking .left dt,.ranking .middle dt,.ranking .right dt {
+	width: 355px;
+	height: 68px;
+	font-size: 20px;
+	padding: 25px;
+	color: #cd0301;
+	background: linear-gradient(to bottom, #fcf8ed, #fefbf5, #fff);
+}
+.ranking .left dt span,.ranking .middle dt span,.ranking .right dt span {
+	 color: #e2e2e2;
+	 float: right;
+	 font-size: 16px;
+}
+
+.ranking .left dd,.ranking .middle dd,.ranking .right dd {
+	background-color: #ffffff;
+	width: 355px;
+	height: 65px;
+	padding: 1px 0;
+}
+.ranking .left dd b,
+.ranking .left dd img,
+.ranking .left dd .word,
+.ranking .middle dd b,
+.ranking .middle dd img,
+.ranking .middle dd .word,
+.ranking .right dd b,
+.ranking .right dd img,
+.ranking .right dd .word {
+	float: left;
+	height: 62px;
+	margin-left: 10px;
+}
+
+.ranking .left dd b,
+.ranking .middle dd b,
+.ranking .right dd b {
+	width: 30px;
+	line-height: 63px;
+	display: inline-block;	
+	text-align: center;
+	color: #cd0301;
+}
+.ranking .left dd img,
+.ranking .middle dd img,
+.ranking .right dd img {
+	width: 110px;
+}
+
+.ranking .left dd .word,
+.ranking .middle dd .word,
+.ranking .right dd .word {
+	color: #cd0301;
+	padding: 7px;
+}
+.ranking .left dd .word .last,
+.ranking .middle dd .word .last,
+.ranking .right dd .word .last {
+	color: #757575;
+	font-size: 14px;
+}
+
+.evaluate {
+	height: 350px;
+}
+
+.evaluate .bottom {
+	margin: 55px 0;
+	height: 250px;
+}
+.evaluate .bottom li {
+	position: relative;
+	float: left;
+	height: 195px;
+	width: 245px;
+	border-radius: 10px;
+	margin: 0 10px;
+	background-color: #fff;
+}
+.evaluate .bottom li img {
+	position: absolute;
+	top: -14px;
+	left: 30px;
+	padding: 4px;
+	background-color: #fff;
+	width: 56px;
+	border-radius: 50%;
+}
+.evaluate .bottom li span {
+	position: absolute;
+	top: 10px;
+	left: 90px;
+	color: #DC3333;
+}
+.evaluate .bottom li p,.evaluate .bottom li i {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	padding: 0 30px;
+	font-size: 14px;
+	color: #757575;
+}
+.evaluate .bottom li i {
+	top: 160px;
+	color: #CD0301;
+	font-size: 12px;
+}

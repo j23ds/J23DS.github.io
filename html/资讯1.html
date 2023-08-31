@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>海風|海風教育平台-首页</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../icon.png">
+		<meta name="description" content="Quality education platform">
+		<meta name="keywords" content="Quality education platform">
+
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/common.css">
+		<link rel="stylesheet" type="text/css" href="../css/资讯.css">
+	</head>
+
+	<body>
+		<div id="side-menu">
+        	<ul>
+        		<a href="#"><li id="btn">
+        			<img src="../img/手机.png" onmouseover="this.src='../img/手机1.png'" onmouseout="this.src='../img/手机.png'"/>
+                	<img src="../img/手机2.png"  id="dis"/ >
+        		</li></a>
+        		<a href="#"><li><img src="../img/反馈.png" onmouseover="this.src='../img/反馈1.png'" onmouseout="this.src='../img/反馈.png'"/></li></a>
+        		<a href="#"><li><img src="../img/客服.png" onmouseover="this.src='../img/客服1.png'" onmouseout="this.src='../img/客服.png'"/></li></a>
+        		<a href="#"><li><img src="../img/帮助.png" onmouseover="this.src='../img/帮助1.png'" onmouseout="this.src='../img/帮助.png'"/></li></a>
+        		<a href="#top"><li><img src="../img/顶部.png" onmouseover="this.src='../img/顶部1.png'" onmouseout="this.src='../img/顶部.png'"/></li></a>
+
+        	</ul>
+    	</div>
+		
+		<div class="nav">
+			<div class="logo">
+				<a href="../index.html"><img src="../img/logo.png" /></a>
+			</div>
+			<div class="search">
+				<div class="desired"><input type="text" placeholder="Java系统课" /></div>
+				<div class="search-key">
+					<button type="button"></button>
+				</div>
+			</div>
+			<div class="column">
+				<div class="home">
+					<a href="../index.html" class="active">首页</a>
+				</div>
+				<div class="learning-center">
+					<a href="../学习中心.html" target="_blank">学习中心</a>
+				</div>
+				<div class="free-classes">
+					<a href="../免费课.html" target="_blank">免费课</a>
+				</div>
+				<div class="open-class">
+					<a href="../公开课.html" target="_blank">公开课</a>
+				</div>
+				<div class="community">
+					<a href="../问答社区.html" target="_blank">问答社区</a>
+				</div>
+			</div>
+			<div class="class-hour">
+				<img src="../img/keshi.png" />
+				<a href="#">234 课时</a>
+			</div>
+			<div class="personal-center">
+				<img src="../img/yonghu.png" />
+				<a href="../学习中心.html" target="_blank">Ace Killek</a>
+			</div>
+		</div>
+		
+		<div class="info">
+			<div class="content">
+			<h4>微服务架构是什么？有哪些优点和不足？</h4>
+			<p class="author">Blue92120   2022-06-28 11:52:09</p>
+			<hr />
+
+			<h6>微服务架构定义 </h6>
+			<p>微服务架构是一种架构风格和架构思想，它倡导我们在传统软件应用架构的基础上，将系统业务按照功能拆分为更加细粒度的服务，所拆分的每一个服务都是一个独立的应用。</p>
+			<p>这些应用对外提供公共的API，可以独立承担对外服务的职责，通过此种思想方式所开发的软件服务实体就是“微服务”，而围绕着微服务思想构建的一系列体系结构(包括开发、测试、部署等)，我们可以将它称之为“微服务架构”。</p>
+			<p>根据微服务架构的定义，将传统单体架构拆分为微服务架构的方式。</p>
+			<h6>传统单体架构拆分为微服务架构：</h6>
+			<img src="../img/资讯1-1.png"/>
+			<p>从上图中可以看出，微服务架构已将传统单体架构中的订单服务、商品服务和用户服务拆分为了独立的服务，其中的每一个服务都是一个独立的应用，可以访问自己的数据库，这些服务对外提供公共的API，并且服务之间可以相互调用。</p>
+			<p><b>注意：</b></p>
+			<p>微服务和微服务架构是两个不同的概念。微服务强调的是服务的大小，它关注的是某一个点，而微服务架构是一种架构思想，需要从整体上对软件系统进行全面的考虑。</p>
+			<h6>微服务架构的优点 </h6>
+			<p>与传统单体应用架构相比，微服务架构有很多优点，具体表现如下：</p>
+			<p><b>1.复杂度可控</b></p>
+			<p>微服务架构在将应用分解的同时，规避了原本复杂度无止境的积累。每一个微服务专注于单一功能，并通过定义良好的接口清晰地表述服务边界。由于体积小、复杂度低，每个微服务可由一个小规模开发团队完全掌控，易于保持高可维护性，并提高了开发效率。</p>
+			<p><b>2.可独立部署</b></p>
+			<p>由于微服务具备独立的运行进程，所以每个微服务都可以独立部署。当某个微服务发生变更时，无需编译、部署整个应用。由微服务组成的应用相当于具备一系列可并行的发布流程，使得发布更加高效，同时降低了对生产环境所造成的风险，最终缩短应用交付周期。</p>
+			<p><b>3.技术选型灵活</b></p>
+			<p>微服务架构下，技术的选型是多样化的。每个团队都可以根据自身服务的需求和行业发展的现状，自由选择最适合的技术。由于每个微服务相对简单，当需要对技术进行升级时，所面临的风险较低，甚至完全重构一个微服务也是可行并容易的。</p>
+			<p><b>4.易于容错</b></p>
+			<p>当架构中的某一组件发生故障时，在单一进程的传统架构下，故障很有可能在进程内扩散，导致整个应用不可用。在微服务架构下，故障会被隔离在单个服务中。若设计良好，其他服务可通过重试、平稳退化等机制实现应用层面的容错。</p>
+			<p><b>5.易于扩展</b></p>
+			<p>单个服务应用也可以实现横向扩展，这种扩展可以通过将整个应用完整的复制到不同的节点中实现。当应用的不同组件在扩展需求上存在差异时，微服务架构便体现出其灵活性，因为每个服务可以根据实际需求独立进行扩展。</p>
+			<p><b>6.功能特定</b></p>
+			<p>每个微服务有自己的业务逻辑和适配器，并且一个微服务一般只完成某个特定的功能，例如商品服务只管理商品、客户服务只管理客户等。这样开发人员可以完全的专注于某一个特定功能的开发，而不用过多的考虑其他，从而提高开发效率。</p>
+			<p>除了上述几点好处外，微服务架构还有很多好处，由于篇幅有限，这里就不一一列举了，但从微服务架构的好处可以看出，使用微服务可以很好的解决传统单体架构中的问题。</p>
+			<img class="two" src="../img/资讯1-2.png"/>
+			<h6> 微服务架构的不足 </h6>
+			<p>微服务架构除了有上面所讲的各种优点外，还存在着一些不足，这些不足的具体表现如下：</p>
+			<p><b>1.开发人员必须处理创建分布式系统的复杂性</b></p>
+			<p>①开发工具(或IDE)是面向构建传统的单体应用程序的，不为开发分布式应用程序提供全面功能上的支持。</p>
+			<p>②测试更加困难。在微服务架构中，服务数量众多，每个服务都是独立的业务单元，服务主要通过接口进行交互，如何保证依赖的正常，是测试面临的主要挑战。</p>
+			<p>③开发人员必须实现服务间的通信机制。</p>
+			<p>④实现用例跨多个服务时，需要面对使用分布式事务管理的困难。</p>
+			<p>⑤实现跨多个服务的用例，需要团队之间进行仔细的协调。</p>
+			<p><b>2.部署的复杂性</b></p>
+			<p>在部署和管理时，由许多不同服务类型组成的系统的操作比较复杂，这将要求开发、测试及运维人员有相应的技术水平。</p>
+			<p><b>3.增加内存消耗</b></p>
+			<p>微服务架构用多个服务实例取代了1个单体应用程序实例，如果每个服务都运行在自己的JVM中，那么有多少个服务实例，就会有多少个实例在运行时的内存开销。</p>
+			<h6>微服务架构与SOA的区别 </h6>
+			<p>通过上面的内容，相信大家对微服务架构已经有了一定的了解。细心的同学可能会有这样一个疑问，微服务架构与SOA都是对单体架构的拆分，他们有什么不同呢？下面通过一个表格对两者的区别进行对比。</p>
+			<h6>微服务架构与SOA的区别：</h6>
+			<img src="../img/资讯1-3.png"/>
+			<p>转载-https://blog.csdn.net/Blue92120/article/details/125499638</p>
+			</div>
+		</div>
+		
+		
+		<div class="footer">
+			<div class="service">
+				<div class="top">
+					<a href="#">
+						<h3>海風</h3></a><b>|</b>
+					<a href="#">
+						<h3>海風教育平台</h3></a>
+					<a href="#"><span>关于我们</span></a>
+					<a href="#"><span>平台更新日志</span></a>
+					<a href="#"><span>推荐浏览器下载</span></a>
+				</div>
+				<div class="contact">
+					<div class="title">
+						<b>联系我们</b><span>（周一至周五 10:00--17：00）</span>
+					</div>
+					<div class="content">
+						<i>微信：
+							<a href="#">在线聊天<img src="../img/wx.png" /></a>
+							<a href="#">在线客服<img src="../img/kf.png" /></a>
+						</i>
+						<i>QQ：
+							<a href="#">在线聊天<img src="../img/qq.png" /></a>
+							<a href="#">在线客服<img src="../img/kf.png" /></a>
+						</i>
+						<br />
+						<i>邮箱：
+							jczn@foxmail.com
+						</i>
+						<i class="add">地址：
+							湖南省张家界市吉首大学张家界学院
+						</i>
+					</div>
+					<div class="link">
+						<b>友情链接</b>
+						<a href="#"><span>亭外亭官网 </span></a>
+						<a href="#"><span>亭外亭教育 </span></a>
+						<a href="#"><span>亭外亭程序员 </span></a>
+						<a href="#"><span>亭外亭JAVA学院 </span></a>
+						<a href="#"><span>亭外亭专修学院 </span></a>
+						<a href="#"><span>申请友情链接</span></a>
+					</div>
+				</div>
+				<div class="qr-code">
+					<img src="../img/erweima.png" />
+					<span>扫码开启移动教学/学习</span>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>©本网站资源来自互联网收集，仅供用于学习和交流，请勿用于商业用途。</span>
+			</div>
+		</div>
+	</body>
+
+	
+
+
+</html>

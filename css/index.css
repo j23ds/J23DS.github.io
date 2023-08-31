@@ -1,0 +1,273 @@
+
+
+
+.banner {
+	width: 1263.33px;
+	height: 395px;
+	text-align: center;
+}
+
+.banner img {
+	margin-top: 50px;
+	width: 1263px;
+}
+
+.header {
+	width: 1263.33px;
+	height: 300px;
+	padding: 0 100px;
+	text-align: center;
+}
+
+.header .left,
+.header .middle-1,
+.header .middle-2,
+.header .right {
+	float: left;
+	margin: 0 7px;
+	width: 250px;
+	height: 270px;
+	box-shadow: 0 0 1px 0 #2A4F5E;
+	background-color: #fafafa;
+	color: #757575;
+}
+
+.header .left span,
+.header .middle-1 span,
+.header .middle-2 span,
+.header .right span {
+	display: inline-block;
+	width: 180px;
+	height: 130px;
+	margin: 30px auto;
+	background-image: url("../img/图书.png");
+	background-repeat: no-repeat;
+	background-size: 1245px 831px;
+	background-position: -34px -227px;
+}
+
+.header .middle-1 .middle-1a {
+	background-position: -304px -227px;
+}
+
+.header .middle-2 .middle-1b {
+	background-position: -574px -227px;
+}
+
+.header .right .righta {
+	background-position: -1044px -227px;
+}
+
+.header .left p,
+.header .middle-1 p,
+.header .middle-2 p,
+.header .right p {
+	padding: 0 39px;
+}
+
+.header .left:hover,
+.header .middle-1:hover,
+.header .middle-2:hover,
+.header .right:hover {
+	background-color: #fff;
+	box-shadow: 0 0 3px 0 #2A4F5E;
+}
+
+.neck {
+	width: 1263.33px;
+	height: 350px;
+	padding: 0 100px;
+	background-color: #fafafa;
+}
+
+.neck .journalism,
+.neck .route {
+	float: left;
+	width: 521.021px;
+	height: 297.5px;
+	margin: 30px 5px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.neck .journalism .top,
+.neck .route .top {
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	color: #d30000;
+}
+
+.neck .journalism .top b,
+.neck .route .top b,
+.neck .journalism .top h5,
+.neck .route .top h5 {
+	float: left;
+}
+
+.neck .journalism .top h5,
+.neck .route .top h5 {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.neck .journalism .top span,
+.neck .route .top span {
+	float: right;
+	font-size: 15px;
+	color: #757575;
+}
+
+.neck .journalism .top span:hover,
+.neck .route .top span:hover {
+	color: #dc3333;
+}
+
+.neck .journalism ul {
+	margin-top: 20px;
+}
+
+.neck .journalism ul li {
+	margin: 5px 0;
+	padding: 0 10px;
+	color: #757575;
+}
+
+.neck .journalism ul li span {
+	float: right;
+}
+
+.neck .journalism ul a li:hover {
+	color: #dc3333;
+}
+
+.neck .route .route-pic {
+	width: 521.021px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.neck .route .route-pic .scroll {
+	position: relative;
+	display: inline-block;
+	width: 450px;
+	height: 195px;
+}
+
+.neck .route .route-pic .scroll .img {
+	display: none;
+	width: 450px;
+	height: 195px;
+}
+
+.neck .route .route-pic .scroll .current {
+	display: block;
+}
+
+.neck .route .route-pic .scroll .lf {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	background-image: url('../img/arrow.png');
+	background-position: -83px 0;
+	width: 41px;
+	height: 69px;
+	cursor: pointer;
+	transform: translateY(-50%);
+}
+
+.neck .route .route-pic .scroll .lr {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	background-image: url('../img/arrow.png');
+	background-position: -123px 0;
+	width: 41px;
+	height: 69px;
+	cursor: pointer;
+	transform: translateY(-50%);
+}
+
+.neck .route .route-pic .dots {
+	position: absolute;
+	bottom: -1px;
+	right: 143px;
+	width: 160px;
+}
+
+.neck .route .route-pic .dots>span {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 11px;
+	height: 11px;
+	border: 5px solid rgba(204, 204, 204, 0.2);
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.neck .route .route-pic .dots>span:not(:last-child) {
+	margin-right: 5px;
+}
+
+
+/* 小圆点的颜色 */
+
+.neck .route .route-pic .dots .square {
+	background: #dc3333;
+}
+
+.chest {
+	width: 1263.33px;
+	height: 520px;
+	padding: 0 100px;
+	text-align: center;
+}
+
+.chest dl {
+	height: 460px;
+}
+
+.chest dt {
+	width: 1063.32px;
+	height: 65px;
+	padding: 20px 0;
+	font-size: 25px;
+	color: #d30000;
+}
+
+.chest dd {
+	width: 200px;
+	float: left;
+	box-shadow: 8px 8px 18px 0 rgb(215 219 221 / 50%);
+	border-radius: 6px;
+	transition: all .5s;
+	margin: 0 5px 20px;
+	color: #757575;
+}
+
+.chest dd:hover {
+	box-shadow: 8px 8px 28px 0 rgb(215 219 221 / 50%);
+	transform: translate3d(0, -10%, 0);
+}
+
+.chest dd img {
+	width: 200px;
+	height: 130px;
+}
+
+.chest dd h5 {
+	margin: 10px auto;
+	font-weight: 500;
+}
+
+.chest .more {
+	width: 1063.33px;
+	font-size: 22px;
+	color: #d30000;
+}
+
+.chest .more img {
+	width: 22px;
+}

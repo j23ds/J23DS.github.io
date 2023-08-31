@@ -1,0 +1,55 @@
+body {
+	background-color: #f7f7f7;
+}
+
+.info {
+	width: 1263.33px;
+	height: 2880px;
+	padding: 60px 100px 0;
+	
+}
+.info .content {
+	width: 100%;
+	padding: 25px 50px;
+	background-color: #fff;
+	border-radius: 16px;
+	text-align: center;
+}
+.info .content h4 {
+
+	font-size: 25px;
+	color: #D73432;
+}
+.info .content .author {
+	text-align: center;
+	color: #757575;
+}
+.info .content h6,
+.info .content p,
+.info .content b,
+.info .content span {
+	text-align: left;
+}
+.info .content h6 {
+	font-size: 21px;color: #D73432;
+	margin: 10px 0;
+}
+.info .content p {
+	font-size: 15px;
+	color: #757575;
+	margin-bottom: 5px;
+	text-indent: 2em;
+}
+.info .content b {
+
+	color: rgba(215, 52, 50,.8);
+	font-size: 18px;
+}
+.info .content .two {
+	width: 963px;
+	margin: 10px 0;
+}
+.info .content img {
+	margin-bottom: 15px;
+}
+

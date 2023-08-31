@@ -1,0 +1,173 @@
+body {
+	background-color: #f7f7f7;
+}
+
+.personal--center {
+	padding-top: 60px;
+	width: 1263.33px;
+	height: 960px;
+	text-align: center;
+}
+
+.personal--center .external {
+	width: 1263.33px;
+	height: 190px;
+}
+
+.personal--center .external .external-left,
+.personal--center .external .external-right {
+	padding: 50px 0;
+	background-color: #fff;
+	float: left;
+	height: 190px;
+}
+
+.personal--center .external .external-left {
+	margin-left: 100px;
+	width: 480.06px;
+}
+
+.personal--center .external .external-left .left,
+.personal--center .external .external-left .right,
+.personal--center .external .external-right li {
+	margin: 0 14px;
+	float: left;
+}
+.personal--center .external .external-right li {
+	margin-right: 60px;
+}
+
+.personal--center .external .external-left .left {
+	line-height: 90px;
+}
+
+.personal--center .external .external-left .right {
+	padding-top: 21px;
+}
+
+.personal--center .external .external-left .right b span {
+	background-color: #e6f1fc;
+}
+
+.personal--center .external .external-left .right a {
+	color: #757575;
+	text-align: left;
+}
+
+.personal--center .external .external-right {
+	width: 581.13px;
+}
+
+.personal--center .external .external-right li {
+	position: relative;
+}
+
+.personal--center .external .external-right li b {
+	position: absolute;
+	top: -6px;
+	left: 55px;
+	width: 18px;
+	height: 18px;
+	color: #FAFAFA;
+	background-color: #e0b9c3;
+	border-radius: 50%;
+	line-height: 18px;
+	font-family: "隶书";
+}
+
+.personal--center .external .external-right li p {
+	color: #2a4f5e;
+}
+
+.personal--center .external .external-right li img {
+	width: 69.59px;
+	margin-bottom: 5px;
+}
+
+.personal--center .curriculum {
+	width: 1263.32px;
+	height: 500px;
+	margin: 10px 0;
+	padding: 0 100px;
+}
+
+.personal--center .curriculum .all {
+	background-color: #fff;
+	width: 1063.31px;
+	height: 680px;
+}
+
+.personal--center .curriculum .all .top {
+	text-align: left;
+	padding: 14px;
+}
+
+.personal--center .curriculum .all .top strong,
+.personal--center .curriculum .all .top i {
+	font-size: 25px;
+}
+
+.personal--center .curriculum .all .top strong {
+	color: #d30000;
+}
+
+.personal--center .curriculum .all .top span {
+	color: #2a4f5e;
+}
+
+.personal--center .curriculum .all .bottom {
+	width: 1063.31px;
+	height: 500px;
+	margin-top: 20px;
+}
+
+.personal--center .curriculum .all .bottom li {
+	position: relative;
+	margin: 0 20px;
+	float: left;
+	padding: 20px;
+	transition: all .5s;
+}
+
+.personal--center .curriculum .all .bottom li b {
+	position: absolute;
+	top: 30px;
+	left: 138px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	color: #FAFAFA;
+	background-color: #d30000;
+	border-radius: 50%;
+	font-family: "隶书";
+}
+
+.personal--center .curriculum .all .bottom li img {
+	width: 130px;
+	padding: 10px;
+}
+
+.personal--center .curriculum .all .bottom li .add--to {
+	width: 130px;
+	height: 158px;
+	line-height: 148px;
+	border: 1px solid #eaeaea;
+	margin: 25px 13px 13px 13px;
+}
+
+.personal--center .curriculum .all .bottom li .add--to img {
+	width: 40px;
+}
+
+.personal--center .curriculum .all .bottom li .add--to:hover,
+.personal--center .curriculum .all .bottom a li:hover {
+	box-shadow: 0 0 10px #e2edfb;
+	background-color: #f5f7fa;
+	transform: translateY(5px);
+}
+
+.personal--center .curriculum .all .bottom .add-to {
+	width: 160px;
+	height: 190px;
+	padding: 0;
+}
